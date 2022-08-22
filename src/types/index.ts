@@ -5,3 +5,7 @@ export const Nand = (A: boolean, B: boolean) => {
     return false;
   }
 };
+
+export const Nand2 = (A: boolean, B: boolean) => {
+  A === false && B === false ? true : false;
+};

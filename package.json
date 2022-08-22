@@ -1,0 +1,15 @@
+{
+  "name": "sydht.js",
+  "version": "1.0.0",
+  "description": "An advanced types library, so you don't have to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jake Edgar",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

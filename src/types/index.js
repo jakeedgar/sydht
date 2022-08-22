@@ -2,11 +2,6 @@
 exports.__esModule = true;
 exports.Nand = void 0;
 var Nand = function (A, B) {
-    if (A === false && B === false) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    A === false && B === false ? true : false;
 };
 exports.Nand = Nand;
