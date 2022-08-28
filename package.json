@@ -4,7 +4,9 @@
   "description": "An advanced types library, so you don't have to.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "runPure": "tsc && node dist/pure/index.js",
+    "runType": "tsc && node dist/types/index.js"
   },
   "author": "Jake Edgar",
   "license": "MIT",
